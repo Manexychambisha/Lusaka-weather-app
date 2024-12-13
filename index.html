@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lusaka Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lusaka Province Weather App</h1>
+            <p>Your reliable weather companion for Lusaka</p>
+        </header>
+
+        <section class="search-section">
+            <input type="text" id="city_input" placeholder="Enter city name" />
+            <button id="searchBtn">Search</button>
+        </section>
+
+        <section id="current-weather">
+            <h2>Current Weather</h2>
+            <div id="current-details">
+                <div id="current-icon"></div>
+                <div id="weather-info">
+                    <p id="city_name">City: Lusaka</p>
+                    <p id="current_temp">Temperature: 0°C</p>
+                    <p id="weather_desc">Description: -</p>
+                    <p id="humidity">Humidity: 0%</p>
+                    <p id="wind_speed">Wind Speed: 0 km/h</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container" id="forecast-container"></div>
+        </section>
+
+        <footer>
+
+
+            <a href="https://www.icuzambia.net/sponsorship.php">ZRDC Link</a>
+            <a href="https://www.icuzambia.net/">ICU Link</a>
+
+
+            Designed by Manexy Chambisha (SIN: 2309768532), Software Engineering
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
